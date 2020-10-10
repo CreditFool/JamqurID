@@ -1,0 +1,34 @@
+header {
+    font-weight: normal;
+    background-color: #ffffff;
+}
+header .container {
+    margin: 0 98px;
+}
+header .row {
+    height: 76px;
+}
+header .nav-link {
+    color: #242424;
+    margin: 0 28px;
+    padding: 0;
+    text-align: center;
+}
+header .nav-link:hover {
+    cursor: pointer;
+}
+header .active, header .btn-outline-success {
+    font-weight: 500;
+}
+header .nav-link:hover, header .active .nav-link {
+    border-bottom: 2px solid #42B649;
+}
+header .btn {
+    width: 104px;
+    border-color: #42B649;
+    border-width: 2px;
+    border-radius: 4px;
+}
+header .btn-success {
+    background-color: #42B649;
+}

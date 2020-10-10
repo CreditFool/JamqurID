@@ -1,0 +1,14 @@
+footer {
+    background-color: #151B26;
+    color: #ffffff;
+    font-weight: normal;
+}
+footer .container {
+    padding: 96px 72px;
+}
+footer .col {
+    padding: 0;
+}
+footer strong {
+    font-weight: 500;
+}
