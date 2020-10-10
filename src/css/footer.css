@@ -9,6 +9,13 @@ footer .container {
 footer .col {
     padding: 0;
 }
-footer strong {
+footer strong, footer h3 {
     font-weight: 500;
+}
+footer h3 {
+    font-size: 16px;
+    padding: 20px 0;
+}
+#company {
+    
 }
