@@ -1,0 +1,14 @@
+#form-daftar {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 36, 36, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+#form-daftar .card {
+    width: 500px;
+    height: 600px;
+}
