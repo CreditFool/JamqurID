@@ -1,4 +1,29 @@
-.dummy {
-    height: 150px;
-    background-color: #42B649;
+main {
+    margin: 100px 0;
+}
+main .btn {
+    font-weight: 500;
+    color: #42B649;
+    border: 2px solid #42B649;
+}
+#profil-header {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #C4C4C4;
+}
+#profil th{
+    font-weight: normal;
+}
+#profil .nilai {
+    width: 300px;
+    padding: 8px 0;
+    padding-left: 80px;
+}
+#profil a {
+    color: #42B649;
+    text-decoration: underline;
+}
+#profil img {
+    margin-left: auto;
+    margin-right: 40px;
 }
