@@ -13,3 +13,6 @@ https://coolors.co/ffffff-42b649-21c87a-151b26
 #42B649
 #21C87A
 #151B26
+
+Font:
+Roboto (400, 500) https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto:ital,wght@0,400;0,500;1,400;1,500#standard-styles
