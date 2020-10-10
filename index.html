@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="src/style.css">
-        <title>Jamqur.id | Home</title>
+        <title>Jamqur.id | Beranda</title>
     </head>
     
     <body>
@@ -43,44 +43,96 @@
             </div>
         </header>
         
-        <form id="form-daftar" class="d-flex justify-content-center">
-            <div class="card">
-                <div class="card-body">
-                    <h2>Daftar</h2>
-                    <p>Silahkan isi data di bawah ini</p>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <img src="src/image/nama.svg">
+        <div id="form-daftar">
+            <div class="form-pop-up d-flex justify-content-center align-items-center">
+                <form class="card">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-right">
+                            <button type="button" class="close-btn">
+                                <img src="src/image/close.svg">
+                            </button>
                         </div>
-                        <input type="text" placeholder="Nama Lenkap">
-                    </div>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <img src="src/image/nama.svg">
+                        <h2>Daftar</h2>
+                        <p>Silahkan isi data di bawah ini</p>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="src/image/nama.svg">
+                            </div>
+                            <input type="text" placeholder="Nama Lenkap">
                         </div>
-                        <input type="text" placeholder="Nama Lenkap">
-                    </div>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <img src="src/image/nama.svg">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="src/image/email.svg">
+                            </div>
+                            <input type="text" placeholder="Email">
                         </div>
-                        <input type="text" placeholder="Nama Lenkap">
-                    </div>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <img src="src/image/nama.svg">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="src/image/telephone.svg">
+                            </div>
+                            <input type="text" placeholder="Nomor Telepon">
                         </div>
-                        <input type="text" placeholder="Nama Lenkap">
-                    </div>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <img src="src/image/nama.svg">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="src/image/password.svg">
+                            </div>
+                            <input type="text" placeholder="Kata Sandi">
                         </div>
-                        <input type="text" placeholder="Nama Lenkap">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="src/image/password.svg">
+                            </div>
+                            <input type="text" placeholder="Konfirmasi Kata Sandi">
+                        </div>
+                        <button type="button" class="btn btn-secondary btn-block">DAFTAR</button>
+                        <p class="suggestion">
+                            Sudah memiliki akun? <a href="#">Masuk</a>
+                        </p>
                     </div>
-                </div>
+                </form>
             </div>
-        </form>
+        </div>
+        
+        <div id="form-masuk">
+            <div class="form-pop-up d-flex justify-content-center align-items-center">
+                <form class="card">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-right">
+                            <button type="button" class="close-btn">
+                                <img src="src/image/close.svg">
+                            </button>
+                        </div>
+                        <h2>Masuk</h2>
+                        <p>Silahkan isi data di bawah ini</p>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="src/image/nama.svg">
+                            </div>
+                            <input type="text" placeholder="Nama Lenkap">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="src/image/password.svg">
+                            </div>
+                            <input type="text" placeholder="Kata Sandi">
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check d-flex justify-content-between">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label">
+                                    Ingat saya
+                                </label>
+                                <a href="#">Lupa kata sandi?</a>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary btn-block">MASUK</button>
+                        <p class="suggestion">
+                            Belum memiliki akun? <a href="#">Daftar</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
         
         <main>
             <div class="dummy"></div>

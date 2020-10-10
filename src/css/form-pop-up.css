@@ -1,0 +1,66 @@
+#form-daftar {
+    display: none;
+}
+#form-masuk {
+    display: none;
+}
+.form-pop-up {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 36, 36, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.form-pop-up .card {
+    border-radius: 8px;
+    width: 400px;
+    padding: 36px;
+}
+.form-pop-up .card-body {
+    padding: 0;
+    text-align: center;
+}
+.form-pop-up .input-group {
+    border: 1px solid #6B6B6B;
+    border-radius: 4px;
+    margin: 12px 0;
+}
+.form-pop-up .input-group-prepend {
+    border-right: 1px solid #6B6B6B;
+    width: 17%;
+}
+.form-pop-up img {
+    margin: 9px auto;
+}
+.form-pop-up .input-group input {
+    width: 80%;
+    margin-left: auto;
+    border: none;
+}
+.form-pop-up input:focus, .close-btn:focus {
+    outline: none;
+}
+.form-pop-up .btn {
+    margin-bottom: 8px;
+}
+.form-pop-up .suggestion a {
+    color: #42B649;
+}
+.close-btn {
+    margin-left: auto;
+    padding: 0;
+    background-color: #ffffff;
+    border: none;
+}
+.close-btn img {
+    margin: 0;
+    width: 16px;
+}
+.form-group {
+    margin-bottom: 8px;
+}
+.form-group a {
+    color: darkgrey;
+}
