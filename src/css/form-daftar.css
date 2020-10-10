@@ -9,6 +9,29 @@
     z-index: 10;
 }
 #form-daftar .card {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
+    padding: 36px;
+}
+#form-daftar .card-body {
+    text-align: center;
+}
+#form-daftar .input-group {
+    border: 1px solid #6B6B6B;
+    border-radius: 4px;
+    margin: 12px 0;
+}
+#form-daftar .input-group-prepend {
+    border-right: 1px solid #6B6B6B;
+}
+#form-daftar img {
+    margin: 9px 12px;
+}
+#form-daftar input {
+    width: 80%;
+    margin-left: auto;
+    border: none;
+}
+#form-daftar input:focus {
+    outline: none;
 }
