@@ -1,0 +1,19 @@
+{
+  "name": "jamqurid",
+  "version": "1.0.0",
+  "description": "situs pendataan hafidz Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreditFool/JamqurID.git"
+  },
+  "author": "tim JamqurID",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreditFool/JamqurID/issues"
+  },
+  "homepage": "https://github.com/CreditFool/JamqurID#readme"
+}
