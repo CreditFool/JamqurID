@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-@import url(css/top-bar.css);
-@import url(css/main-section.css);
-@import url(css/footer.css);
-@import url(css/form-pop-up.css);
+@import url(top-bar.css);
+@import url(main-section.css);
+@import url(footer.css);
+@import url(form-pop-up.css);
 
 body {
     font-family: 'Roboto', sans-serif;
