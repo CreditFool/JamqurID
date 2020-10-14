@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/CreditFool/JamqurID#readme",
   "dependencies": {
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.5.3",
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "css-loader": "^5.0.0",
