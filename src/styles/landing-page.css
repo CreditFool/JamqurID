@@ -1,6 +1,8 @@
 #landing-page {
     padding: 0;
 }
+
+
 #jumbotron-1 {
     background-image: url(../image/Rectangle%202.png);
     background-size: cover;
@@ -17,6 +19,49 @@
 #jumbotron-1 button img {
     width: 32px;
 }
+
+
+#section-2 {
+    color: #242424;
+    text-align: center;
+    padding: 24px;
+}
+#section-2 img {
+    display: inline-block;
+    width: 64px;
+}
+#section-2 button {
+    margin: 10px;
+    padding: 10px 20px;
+}
+#section-2 p {
+    color: #6B6B6B;
+    margin: 0 auto;
+    max-width: 656px;
+}
+#section-2 button img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+#section-3 .featured-image {
+    margin: 0.833vw;
+    border-radius: 8px;
+}
+#f-img1, #f-img2 { width: 34.167vw }
+#f-img3 { width: 22.222vw }
+#f-img4 { width: 19.444vw }
+#f-img5 { width: 15vw }
+
+
+#section-4 .biru {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+
 @media (min-width: 576px) {
     #jumbotron-1 {
         padding: 12.083vw 0;
@@ -24,9 +69,21 @@
     #jumbotron-1 button img {
         margin-top: 5vw;
     }
+    #section-2 {
+        padding: 10.833vw 0;
+    }
+    #section-2 button {
+        margin-top: 3.194vw;
+    }
 }
 @media (min-width: 768px) {
     #jumbotron-1 button img {
         width: 4.444vw;
+    }
+    #section-2 img {
+        width: 9.167vw;
+    }
+    #section-2 h2 {
+        margin: 2.268vw auto;
     }
 }
