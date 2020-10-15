@@ -33,3 +33,34 @@ header .btn {
 header .btn-success {
     background-color: #42B649;
 }
+#header-menu {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    header .container {
+        margin: 0;
+    }
+    #header-logo {
+        width: 40%;
+    }
+    #header-logo img {
+        width: 120px;
+    }
+    #header-btn {
+        width: 45%;
+    }
+    #header-menu {
+        display: block;
+        width: 15%;
+    }
+    #header-menu-btn {
+        width: 40px;
+    }
+    header .btn {
+        width: inherit;
+        padding: 2px;
+    }
+    #horizontal-nav {
+        display: none;
+    }
+}
