@@ -1,0 +1,32 @@
+#landing-page {
+    padding: 0;
+}
+#jumbotron-1 {
+    background-image: url(../image/Rectangle%202.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+#jumbotron-1 .container {
+    max-width: 532px;
+}
+#jumbotron-1 button {
+    background: none;
+    border: none;
+}
+#jumbotron-1 button img {
+    width: 32px;
+}
+@media (min-width: 576px) {
+    #jumbotron-1 {
+        padding: 12.083vw 0;
+    }
+    #jumbotron-1 button img {
+        margin-top: 5vw;
+    }
+}
+@media (min-width: 768px) {
+    #jumbotron-1 button img {
+        width: 4.444vw;
+    }
+}
