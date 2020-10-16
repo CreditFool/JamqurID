@@ -125,6 +125,51 @@
     max-width: 592px;
     color: #6B6B6B;
 }
+#section-6 .list-langkah {
+    margin: 4.444vw 0;
+}
+#section-6 .langkah {
+    text-align: left;
+    padding: 0;
+    margin-left: 30px;
+    border-left: 4px dashed #E5E5E5;
+    padding-bottom: 20px;
+}
+#section-6 .langkah p {
+    min-height: 72px;
+}
+#section-6 .terakhir {
+    border-left: none;
+    margin-left: 34px;
+    padding: 0;
+    height: auto;
+}
+#section-6 .gambar {
+    display: none;
+}
+#section-6 .deskripsi {
+    overflow: auto;
+    position: relative;
+    right: 20px;
+}
+#section-6 .angka {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-color: #42B649;
+    border-radius: 50%;
+    color: #ffffff;
+    float: left;
+}
+#section-6 h3 {
+    font-size: 24px;
+    margin: 4px 0;
+}
+#section-6 .penjelasan {
+    display: inline-block;
+    float: right;
+    width: 77.778vw;
+}
 
 
 #section-7 {
@@ -252,6 +297,9 @@
         margin-top: 3.194vw;
         padding: 1.111vw 2.569vw;
     }
+    #section-6 .penjelasan {
+        max-width: 448px;
+    }
     #section-9 h2 {
         font-size: 47px;
     }
@@ -275,6 +323,27 @@
     #section-5 iframe {
         height: 38.889vw;
     }
+    #section-6 {
+        margin: inherit 0;
+        max-width: 100%;
+    }
+    #section-6 .langkah {
+        min-width: 400px;
+        margin-left: 23px;
+    }
+    #section-6 .terakhir {
+        left: 5px;
+    }
+    #section-6 .gambar {
+        display: block;
+        padding: 0;
+    }
+    #section-6 img {
+        width: 19.444vw;
+    }
+    #section-6 .penjelasan {
+        max-width: 350px;
+    }
     #section-7 button {
         padding: 1.181vw 4.167vw;
         font-weight: 700;
@@ -287,6 +356,15 @@
 @media (min-width: 1200px) {
     #section-4 .wrapper {
         min-height: 190px;
+    }
+    #section-6 .langkah {
+        min-width: 505px;
+        width: 41.111vw;
+        max-width: 592px;
+    }
+    #section-6 .penjelasan {
+        width: 37.361vw;
+        max-width: 538px;
     }
     #section-8 .quote-testimoni {
         margin: 5vw auto;
