@@ -18,7 +18,7 @@
     border: none;
 }
 #jumbotron-1 button img {
-    width: 32px;
+    width: 48px;
 }
 
 
@@ -34,6 +34,7 @@
 #section-2 button {
     margin: 10px;
     padding: 10px 20px;
+    background-color: #42B649;
 }
 #section-2 p {
     color: #6B6B6B;
@@ -310,6 +311,7 @@
 }
 @media (min-width: 768px) {
     #jumbotron-1 button img {
+        min-width: 48px;
         width: 4.444vw;
     }
     #section-2 img {
