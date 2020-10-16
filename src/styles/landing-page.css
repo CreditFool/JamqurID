@@ -55,10 +55,53 @@
 #f-img5 { width: 15vw }
 
 
-#section-4 .biru {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+#section-4 {
+    margin-top: 10.833vw;
+}
+#section-4 .quote-box {
+    margin: auto;
+    padding: 2.639vw;
+    border: 2px solid #42B649;
+    border-top-width: 7px;
+    border-radius: 8px;
+}
+#section-4 .wrapper {
+    min-height: 139px;
+}
+#section-4 .header {
+    overflow: auto;
+    margin-bottom: 1.667vw;
+}
+#section-4 h3 {
+    color: #242424;
+    margin: 0;
+    display: inline;
+    font-size: 18px;
+}
+#section-4 p {
+    color: #6B6B6B;
+}
+#section-4 .green {
+    background-color: #42B649;
+}
+#section-4 .green h3, #section-4 .green p {
+    color: #ffffff;
+}
+#section-4 img {
+    width: 4.444vw;
+    min-width: 61px;
+    float: left;
+    margin-right: 1.667vw;
+}
+
+
+#section-5 {
+    margin: 10.833vw 0;
+    padding: 0;
+}
+#section-5 iframe {
+    width: 100%;
+    height: 56.250vw;
 }
 
 
@@ -85,5 +128,16 @@
     }
     #section-2 h2 {
         margin: 2.268vw auto;
+    }
+    #section-4 .wrapper {
+        min-height: 222px;
+    }
+    #section-5 iframe {
+        height: 38.889vw;
+    }
+}
+@media (min-width: 1200px) {
+    #section-4 .wrapper {
+        min-height: 190px;
     }
 }
