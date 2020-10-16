@@ -1,30 +1,54 @@
-footer {
+.footer {
     background-color: #151B26;
     color: #ffffff;
     font-weight: normal;
+    padding: 6.667vw 12.847vw;
 }
-footer .container {
-    padding: 96px 72px;
-}
-footer .col {
-    padding: 0;
-}
-footer h3 {
+.footer h3 {
     font-weight: bold;
     font-size: 16px;
-    padding: 24px 0;
+    padding: 1.667vw 0;
     margin: 0;
 }
-address h3 {
-    padding: 8px 0;
+#address img {
+    width: 14.514vw;
+    min-width: 170px;
 }
-footer .nav-link {
-    padding: 8px 0;
+.footer address h3 {
+    padding: 0.556vw 0;
+}
+.footer nav {
+    display: inline-block;
+}
+.footer .nav-link {
+    padding: 0.556vw 0;
     color: #ffffff;
+}
+#social {
+    text-align: right;
+}
+#social h3, #social li {
+    text-align: left;
 }
 #social img {
     margin-right: 16px;
 }
-footer .copyright {
-    color: #757575
+.footer .copyright {
+    color: #757575;
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+@media (min-width: 768px) {
+    #company {
+        text-align: right;
+        margin-right: 5vw;
+    }
+    #company h3, #company li {
+        text-align: left;
+    }
+    #social {
+        text-align: left;
+    }
 }
