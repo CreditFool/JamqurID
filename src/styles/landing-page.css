@@ -108,7 +108,7 @@
 #section-6 {
     text-align: center;
 }
-#ayo-mulai {
+#ayo-mulai, #testimoni {
     display: inline-block;
     padding: 7px 18px;
     margin-bottom: 2.500vw;
@@ -129,7 +129,7 @@
 
 #section-7 {
     position: relative;
-    top: 61px;
+    top: 4.236vw;
 }
 #section-7 .jumbotron {
     color: #ffffff;
@@ -156,11 +156,85 @@
 }
 
 
-.backgroung-gelap {
+.background-gelap {
     background-color: #fafafa;
-    width: 100%;
-    height: 300px;
-    padding: 100px;
+    padding-top: 11.111vw;
+}
+
+#section-8 {
+    text-align: center;
+}
+#section-8 h2 {
+    color: #242424;
+    margin: 1.111vw 0;
+}
+#section-8 p {
+    margin: auto;
+    color: #6B6B6B;
+}
+#section-8 .quote-testimoni {
+    text-align: left;
+    margin: 8px auto;
+    border: 2px solid #42B649;
+    border-top-width: 7px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #484848;
+}
+#section-8 .profil {
+    border-top: 2px solid #42B649;
+    padding: 1.389vw;
+}
+#section-8 .profil img {
+    width: 5vw;
+    min-width: 52px;
+    height: 5vw;
+    min-height: 52px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+#section-8 .profil h4 {
+    font-size: 18px;
+    margin: 0;
+    color: #242424;
+}
+#section-8 .quote-testimoni p {
+    margin: 2.222vw 1.667vw;
+    min-height: 120px;
+}
+
+
+#section-9 {
+    background-image: url(../image/featured-img2.png);
+    background-size: cover;
+    padding: 0;
+    margin-top: 4.167vw;
+}
+#section-9 .tint {
+    background: linear-gradient(270deg, #151B26 0%, rgba(21, 27, 38, 0) 100.8%), linear-gradient(0deg, rgba(21, 27, 38, 0.8), rgba(21, 27, 38, 0.8));
+}
+#section-9 .row {
+    padding: 6.428vw 10.778vw;
+    text-align: center;
+}
+#section-9 button {
+    display: inline-block;
+    padding: 6.4px 14.8px;
+    font-size: 20px;
+    background-color: #21C87A;
+}
+#section-9 h2 {
+    font-size: 35px;
+    color: #21C87A;
+    font-weight: 400;
+}
+#section-9 p {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+}
+#section-9 .buat-akun {
+    text-align: center;
 }
 
 
@@ -176,6 +250,13 @@
     }
     #section-2 button {
         margin-top: 3.194vw;
+        padding: 1.111vw 2.569vw;
+    }
+    #section-9 h2 {
+        font-size: 47px;
+    }
+    #section-9 p {
+        font-size: 20px;
     }
 }
 @media (min-width: 768px) {
@@ -199,9 +280,21 @@
         font-weight: 700;
         font-size: 20px;
     }
+    #section-8 .quote-testimoni p {
+        min-height: 72px;
+    }
 }
 @media (min-width: 1200px) {
     #section-4 .wrapper {
         min-height: 190px;
+    }
+    #section-8 .quote-testimoni {
+        margin: 5vw auto;
+    }
+    #section-8 .quote-testimoni p {
+        min-height: 144px;
+    }
+    #section-9 .buat-akun {
+        text-align: left;
     }
 }
