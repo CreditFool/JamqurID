@@ -1,5 +1,6 @@
 #landing-page {
     padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -126,7 +127,7 @@
     color: #6B6B6B;
 }
 #section-6 .list-langkah {
-    margin: 4.444vw 0;
+    margin-top: 4.444vw;
 }
 #section-6 .langkah {
     text-align: left;
@@ -259,7 +260,7 @@
     background: linear-gradient(270deg, #151B26 0%, rgba(21, 27, 38, 0) 100.8%), linear-gradient(0deg, rgba(21, 27, 38, 0.8), rgba(21, 27, 38, 0.8));
 }
 #section-9 .row {
-    padding: 6.428vw 10.778vw;
+    padding: 6.528vw 12.778vw;
     text-align: center;
 }
 #section-9 button {
@@ -327,19 +328,26 @@
         margin: inherit 0;
         max-width: 100%;
     }
+    #section-6 .row:last-child {
+        max-height: 100px;
+    }
     #section-6 .langkah {
         min-width: 400px;
         margin-left: 23px;
     }
     #section-6 .terakhir {
-        left: 5px;
+        left: 4px;
+        max-height: 100px;
     }
     #section-6 .gambar {
         display: block;
         padding: 0;
+        position: relative;
+        bottom: 8.333vw;
     }
     #section-6 img {
         width: 19.444vw;
+        max-width: 280px;
     }
     #section-6 .penjelasan {
         max-width: 350px;
@@ -351,6 +359,9 @@
     }
     #section-8 .quote-testimoni p {
         min-height: 72px;
+    }
+    #section-9 button {
+        padding: 1.458vw 2.917vw;
     }
 }
 @media (min-width: 1200px) {
