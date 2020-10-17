@@ -1,66 +1,117 @@
 header {
-    font-weight: normal;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+    position: sticky;
+    top: 0;
 }
-header .container {
-    margin: 0 98px;
+#header {
+    box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.04);
 }
-header .row {
-    height: 76px;
-}
-header .nav-link {
-    color: #242424;
-    margin: 0 28px;
-    padding: 0;
-    text-align: center;
-}
-header .nav-link:hover {
-    cursor: pointer;
-}
-header .active, header .btn-outline-success {
-    font-weight: 500;
-}
-header .nav-link:hover, header .active .nav-link {
-    border-bottom: 2px solid #42B649;
-}
-header .btn {
-    width: 104px;
-    border-color: #42B649;
-    border-width: 2px;
-    border-radius: 4px;
-}
-header .btn-success {
-    background-color: #42B649;
-}
-#header-menu {
+#header .horizontal-nav, 
+#header .account,
+#header .button-group {
     display: none;
 }
-@media only screen and (max-width: 768px) {
-    header .container {
-        margin: 0;
-    }
-    #header-logo {
-        width: 40%;
-    }
-    #header-logo img {
-        width: 120px;
-    }
-    #header-btn {
-        width: 45%;
-    }
-    #header-menu {
-        display: block;
-        width: 15%;
-    }
-    #header-menu-btn {
-        width: 40px;
-    }
-    header .btn {
-        width: inherit;
-        padding: 2px;
-    }
-    #horizontal-nav {
+#header .logo img {
+    width: 150px;
+}
+#header .menu-button {
+    text-align: right;
+}
+#header .menu-button button {
+    border: 2px solid #42B649;
+}
+#header .daftar {
+    background-color: #42B649;
+}
+#header .menu {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#header .alas-menu {
+    min-width: 300px;
+    height: 100%;
+    padding: 0 15px;
+    background-color: #ffffff;
+    float: right;
+}
+#header .menu .login-option {
+    display: block;
+}
+#header .menu .d-flex {
+    height: 56px;
+    border-bottom: 2px solid #42B649;
+}
+#header .menu button {
+    border: 2px solid #42B649;
+}
+#header .masuk, header .daftar {
+    width: 104px;
+}
+#header .menu-group-button {
+    margin: auto;
+}
+#header .menu nav {
+    margin-top: 80px;
+}
+#header .menu a {
+    color: #242424;
+}
+#header .menu li {
+    text-align: right;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+#header .menu img {
+    width: 28px;
+    margin-left: 15px;
+}
+
+
+@media (min-width: 992px) {
+    #header .menu, #header .menu-button {
         display: none;
+    }
+    #header .button-group, #header .horizontal-nav {
+        display: block;
+    }
+    #header {
+        padding: 0.8vw 7.778vw;
+    }
+    #header .logo img {
+        width: 154px;
+    }
+    #header .horizontal-nav {
+        padding: 0;
+        text-align: right;
+    }
+    #header .horizontal-nav nav {
+        margin-top: 15px;
+    }
+    #header .horizontal-nav li {
+        display: inline;
+        margin-left: 25px;
+        font-weight: 400;
+    }
+    #header .horizontal-nav a {
+        color: #242424;
+    }
+    #header .button-group {
+        margin-left: 20px;
+    }
+    #header .button-group button {
+        border: 2px solid #42B649;
+    }
+}
+@media (min-width: 1200px) {
+    #header .horizontal-nav li {
+        margin-left: 3.889vw;
+    }
+    #header .button-group {
+        margin-left: 5vw;
     }
 }
