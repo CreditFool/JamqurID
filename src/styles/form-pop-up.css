@@ -1,66 +1,110 @@
-#form-daftar {
+#form-masuk-jamqur {
     display: none;
 }
-#form-masuk {
+#form-daftar-jamqur {
     display: none;
 }
 .form-pop-up {
-    height: 100%;
     width: 100%;
-    background-color: rgba(36, 36, 36, 0.6);
-    position: fixed;
+    height: 100%;
     top: 0;
     left: 0;
-    z-index: 10;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.form-pop-up .card {
-    border-radius: 8px;
-    width: 400px;
-    padding: 36px;
+.form-pop-up p {
+    color: #6B6B6B;
 }
-.form-pop-up .card-body {
-    padding: 0;
-    text-align: center;
-}
-.form-pop-up .input-group {
-    border: 1px solid #6B6B6B;
-    border-radius: 4px;
-    margin: 12px 0;
-}
-.form-pop-up .input-group-prepend {
-    border-right: 1px solid #6B6B6B;
-    width: 17%;
-}
-.form-pop-up img {
-    margin: 9px auto;
-}
-.form-pop-up .input-group input {
-    width: 80%;
-    margin-left: auto;
-    border: none;
-}
-.form-pop-up input:focus, .close-btn:focus {
-    outline: none;
-}
-.form-pop-up .btn {
-    margin-bottom: 8px;
-}
-.form-pop-up .suggestion a {
+.form-pop-up a {
     color: #42B649;
 }
-.close-btn {
-    margin-left: auto;
-    padding: 0;
+.form-pop-up form {
+    max-width: 460px;
     background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+}
+.form-pop-up header button {
     border: none;
+    border-radius: 50%;
+    padding: 1px;
+    width: 26px;
 }
-.close-btn img {
+.form-pop-up header button:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+.form-pop-up header img {
+    width: 17px;
+}
+.form-pop-up header {
+    text-align: right;
+}
+.form-pop-up .header-form {
+    text-align: center;
+}
+.form-pop-up .row {
+    border: 1px solid #6B6B6B;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+.form-pop-up .row:last-child {
+    border: 0;
+}
+.form-pop-up .col-auto {
+    padding: 0;
+}
+.form-pop-up .gambar-input-form {
+    min-width: 40px;
+    min-height: 40px;
+    width: 3.472vw;
+    height: 3.472vw;
+    max-width: 50px;
+    max-height: 50px;
+    border-right:  1px solid #6B6B6B;
+}
+.form-pop-up main button {
+    border: none;
+    border-radius: 4px;
+    min-height: 40px;
+    height: 3.472vw;
+    max-height: 50px;
+    background-color: #C4C4C4;
+    font-weight: 500;
+}
+.form-pop-up .input-text {
+    padding: 0 20px;
+}
+.form-pop-up .d-flex input {
+    border: none;
+    width: 100%;
+}
+.form-pop-up footer {
+    text-align: center;
+}
+.form-pop-up .checkbox {
+    border: none;
+    margin-bottom: 5px;
+    color: #6B6B6B;
+}
+.form-pop-up .checkbox .col {
+    padding: 0;
+}
+.form-pop-up .checkbox input {
+    background-color: red;
+}
+.form-pop-up .checkbox label {
     margin: 0;
-    width: 16px;
 }
-.form-group {
-    margin-bottom: 8px;
+.form-pop-up .checkbox .lupa-sandi {
+    text-align: right;
 }
-.form-group a {
-    color: darkgrey;
+.form-pop-up .checkbox a {
+    color: #6B6B6B;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .form-pop-up form {
+        padding: 2.500vw;
+    }
 }

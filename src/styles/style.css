@@ -4,6 +4,9 @@
 @import url(footer.css);
 @import url(form-pop-up.css);
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }

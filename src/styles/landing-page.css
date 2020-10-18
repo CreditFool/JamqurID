@@ -16,6 +16,8 @@
 #jumbotron-1 button {
     background: none;
     border: none;
+    padding: 0;
+    border-radius: 50%;
 }
 #jumbotron-1 button img {
     width: 48px;
@@ -98,8 +100,7 @@
 
 
 #section-5 {
-    margin: 10.833vw 0;
-    padding: 0;
+    padding: 10.833vw 0;
 }
 #section-5 iframe {
     width: 100%;

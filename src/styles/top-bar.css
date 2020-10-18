@@ -11,6 +11,9 @@
 #header .masuk, #header .daftar {
     width: 104px;
 }
+#header .daftar { 
+    background-color: #42B649;
+}
 #header .horizontal-nav, 
 #header .account,
 #header .button-group {
@@ -20,7 +23,7 @@
     width: 150px;
 }
 #right-menu {
-    display: block;
+    display: none;
     position: fixed;
     height: 100%;
     width: 100%;

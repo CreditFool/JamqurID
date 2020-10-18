@@ -29,14 +29,14 @@
                             </nav>
                         </div>
                         <div class="col-auto button-group">
-                            <button type="button" class="btn btn-outline-success masuk">Masuk</button>
-                            <button type="button" class="btn btn-success daftar">Daftar</button>
+                            <button type="button" class="btn btn-outline-success masuk" onclick="document.getElementById('form-masuk-jamqur').style.display = 'block';">Masuk</button>
+                            <button type="button" class="btn btn-success daftar" onclick="document.getElementById('form-daftar-jamqur').style.display = 'block';">Daftar</button>
                         </div>
                         <div class="col account">
                             
                         </div>
                         <div class="col-auto menu-button">
-                            <button type="button" class="btn btn-outline-success">
+                            <button type="button" class="btn btn-outline-success" onclick="document.getElementById('right-menu').style.display = 'block'; document.body.style.overflow = 'hidden'">
                                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                                 </svg>
@@ -48,10 +48,10 @@
                     <div class="alas-menu">
                         <div class="d-flex align-items-center justify-content-between">
                             <div class="menu-group-button">
-                                <button type="button" class="btn btn-outline-success masuk">Masuk</button>
-                                <button type="button" class="btn btn-success daftar">Daftar</button>
+                                <button type="button" class="btn btn-outline-success masuk" onclick="document.getElementById('form-masuk-jamqur').style.display = 'block'; document.getElementById('right-menu').style.display = 'none'; document.body.style.overflow = 'auto';">Masuk</button>
+                                <button type="button" class="btn btn-success daftar" onclick="document.getElementById('form-daftar-jamqur').style.display = 'block'; document.getElementById('right-menu').style.display = 'none'; document.body.style.overflow = 'auto';">Daftar</button>
                             </div>
-                            <button type="button" class="btn btn-outline-success">
+                            <button type="button" id="right-menu-close-button" class="btn btn-outline-success" onclick="document.getElementById('right-menu').style.display = 'none'; document.body.style.overflow = 'auto'">
                                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                                 </svg>
@@ -88,99 +88,121 @@
                         </nav>
                     </div>
                 </div>
+                <div id="form-daftar-jamqur">
+                    <div class="form-pop-up d-flex justify-content-center align-items-center">
+                        <form class="container">
+                            <header>
+                                <button type="button" class="btn btn-outline-secondary" onclick="document.getElementById('form-daftar-jamqur').style.display = 'none'">
+                                    <img src="image/close.svg" alt="close-button">
+                                </button>
+                                <div class="header-form">
+                                    <h2>Daftar</h2>
+                                    <p>Silahkan isi data di bawah ini</p>
+                                </div>
+                            </header>
+                            <main class="container">
+                                <div class="row">
+                                    <div class="col-auto gambar-input-form d-flex justify-content-center align-items-center">
+                                        <img src="image/nama.svg">
+                                    </div>
+                                    <div class="col input-text d-flex align-items-center">
+                                        <input type="text" placeholder="Nama Lengkap">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto gambar-input-form d-flex justify-content-center align-items-center">
+                                        <img src="image/email.svg">
+                                    </div>
+                                    <div class="col input-text d-flex align-items-center">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto gambar-input-form d-flex justify-content-center align-items-center">
+                                        <img src="image/telephone.svg">
+                                    </div>
+                                    <div class="col input-text d-flex align-items-center">
+                                        <input type="text" placeholder="Nomor Telepon">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto gambar-input-form d-flex justify-content-center align-items-center">
+                                        <img src="image/password.svg">
+                                    </div>
+                                    <div class="col input-text d-flex align-items-center">
+                                        <input type="text" placeholder="Kata Sandi">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto gambar-input-form d-flex justify-content-center align-items-center">
+                                        <img src="image/password.svg">
+                                    </div>
+                                    <div class="col input-text d-flex align-items-center">
+                                        <input type="text" placeholder="Konfirmasi Kata Sandi">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <button type="submit" class="btn btn-secondary btn-lg btn-block" disabled>DAFTAR</button>
+                                </div>
+                            </main>
+                            <footer>
+                                <p>Sudah punya akun? <a href="#">Masuk</a></p>
+                            </footer>
+                        </form>
+                    </div>
+                </div>
+                <div id="form-masuk-jamqur">
+                    <div class="form-pop-up d-flex justify-content-center align-items-center">
+                        <form class="container">
+                            <header>
+                                <button type="button" class="btn btn-outline-secondary" onclick="document.getElementById('form-masuk-jamqur').style.display = 'none'">
+                                    <img src="image/close.svg" alt="close-button">
+                                </button>
+                                <div class="header-form">
+                                    <h2>Masuk</h2>
+                                    <p>Silahkan isi data di bawah ini</p>
+                                </div>
+                            </header>
+                            <main class="container">
+                                <div class="row">
+                                    <div class="col-auto gambar-input-form d-flex justify-content-center align-items-center">
+                                        <img src="image/email.svg">
+                                    </div>
+                                    <div class="col input-text d-flex align-items-center">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto gambar-input-form d-flex justify-content-center align-items-center">
+                                        <img src="image/password.svg">
+                                    </div>
+                                    <div class="col input-text d-flex align-items-center">
+                                        <input type="text" placeholder="Kata Sandi">
+                                    </div>
+                                </div>
+                                <div class="row checkbox">
+                                    <div class="col">
+                                        <input type="checkbox" name="ingat-saya">
+                                        <label for="ingat-saya">
+                                            Ingat saya
+                                        </label>
+                                    </div>
+                                    <div class="col lupa-sandi">
+                                        <a href="#">Lupa kata sandi</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <button type="submit" class="btn btn-secondary btn-lg btn-block" disabled>MASUK</button>
+                                </div>
+                            </main>
+                            <footer>
+                                <p>Belum memiliki akun? <a href="#">Daftar</a></p>
+                            </footer>
+                        </form>
+                    </div>
+                </div>
             </div>
         </header>
-        
-        <div id="form-daftar">
-            <div class="form-pop-up d-flex justify-content-center align-items-center">
-                <form class="card">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-right">
-                            <button type="button" id="daftar-close-btn" class="close-btn">
-                                <img src="image/close.svg">
-                            </button>
-                        </div>
-                        <h2>Daftar</h2>
-                        <p>Silahkan isi data di bawah ini</p>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <img src="image/nama.svg">
-                            </div>
-                            <input type="text" placeholder="Nama Lengkap">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <img src="image/email.svg">
-                            </div>
-                            <input type="text" placeholder="Email">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <img src="image/telephone.svg">
-                            </div>
-                            <input type="text" placeholder="Nomor Telepon">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <img src="image/password.svg">
-                            </div>
-                            <input type="text" placeholder="Kata Sandi">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <img src="image/password.svg">
-                            </div>
-                            <input type="text" placeholder="Konfirmasi Kata Sandi">
-                        </div>
-                        <button type="button" class="btn btn-secondary btn-block">DAFTAR</button>
-                        <p class="suggestion">
-                            Sudah memiliki akun? <a href="#">Masuk</a>
-                        </p>
-                    </div>
-                </form>
-            </div>
-        </div>
- 
-        <div id="form-masuk">
-            <div class="form-pop-up d-flex justify-content-center align-items-center">
-                <form class="card">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-right">
-                            <button type="button" id="masuk-close-btn" class="close-btn">
-                                <img src="image/close.svg">
-                            </button>
-                        </div>
-                        <h2>Masuk</h2>
-                        <p>Silahkan isi data di bawah ini</p>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <img src="image/nama.svg">
-                            </div>
-                            <input type="text" placeholder="Nama Lenkap">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <img src="image/password.svg">
-                            </div>
-                            <input type="text" placeholder="Kata Sandi">
-                        </div>
-                        <div class="form-group">
-                            <div class="form-check d-flex justify-content-between">
-                                <input class="form-check-input" type="checkbox">
-                                <label class="form-check-label">
-                                    Ingat saya
-                                </label>
-                                <a href="#">Lupa kata sandi?</a>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-secondary btn-block">MASUK</button>
-                        <p class="suggestion">
-                            Belum memiliki akun? <a href="#">Daftar</a>
-                        </p>
-                    </div>
-                </form>
-            </div>
-        </div>
         
         <main>
             <div id="landing-page" class="container-fluid">
@@ -192,9 +214,11 @@
                         </p>
                     </div>
                     <div>
-                        <button type="button">
-                            <img src="image/circle-arrow.svg" alt="arrow down">
-                        </button>
+                        <a href="#section-6">
+                            <button type="button" class="btn btn-outline-success">
+                                <img src="image/circle-arrow.svg" alt="arrow down">
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div id="section-2" class="container">
@@ -203,10 +227,12 @@
                     <p>
                         Saatnya membumikan Al-Qur'an dan menyatukan seluruh penghafal Qur'an di Nusantara dengan satu platform
                     </p>
-                    <button type="button" class="btn btn-success">
-                        <img src="image/player-play.svg" alt="player play">
-                        Lihat Video
-                    </button>
+                    <a href="#section-5">
+                        <button type="button" class="btn btn-success">
+                            <img src="image/player-play.svg" alt="player play">
+                            Lihat Video
+                        </button>
+                    </a>
                 </div>
                 <div id="section-3" class="container">
                     <div class="row d-flex justify-content-center align-items-end">
@@ -355,7 +381,7 @@
                             <p>
                                 Biarkan kami memandu Anda melalui Jamqur dan membantu Anda memulai.
                             </p>
-                            <button type="button" class="btn btn-outline-success">Daftar</button>
+                            <button type="button" class="btn btn-outline-success" onclick="document.getElementById('form-daftar-jamqur').style.display = 'block';">Daftar</button>
                         </div>
                     </div>
                 </div>
@@ -429,7 +455,7 @@
                                 </p>
                             </div>
                             <div class="col-xl-auto">
-                                <button type="button" class="btn btn-success">Buat Akun</button>
+                                <button type="button" class="btn btn-success" onclick="document.getElementById('form-daftar-jamqur').style.display = 'block';">Buat Akun</button>
                             </div>
                         </div>
                         </div>
