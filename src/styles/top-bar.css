@@ -1,10 +1,15 @@
-header {
-    
+#header-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 2998;
 }
 #header {
     box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.04);
-    position: sticky;
-    top: 0;
+    background-color: rgba(255,255,255,0.95);
+    
+}
+#header .masuk, #header .daftar {
+    width: 104px;
 }
 #header .horizontal-nav, 
 #header .account,
@@ -14,67 +19,65 @@ header {
 #header .logo img {
     width: 150px;
 }
-#header .menu-button {
-    text-align: right;
-}
-#header .menu-button button {
-    border: 2px solid #42B649;
-}
-#header .daftar {
-    background-color: #42B649;
-}
-#header .menu {
+#right-menu {
     display: block;
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 100%;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2999;
 }
-#header .alas-menu {
+#right-menu .menu-button {
+    text-align: right;
+}
+#right-menu .menu-button button {
+    border: 2px solid #42B649;
+}
+#right-menu .daftar {
+    background-color: #42B649;
+}
+#right-menu .alas-menu {
     min-width: 300px;
     height: 100%;
     padding: 0 15px;
     background-color: #ffffff;
     float: right;
 }
-#header .menu .login-option {
+#right-menu .login-option {
     display: block;
 }
-#header .menu .d-flex {
+#right-menu .d-flex {
     height: 56px;
     border-bottom: 2px solid #42B649;
 }
-#header .menu button {
+#right-menu button {
     border: 2px solid #42B649;
 }
-#header .masuk, header .daftar {
-    width: 104px;
-}
-#header .menu-group-button {
+#right-menu .menu-group-button {
     margin: auto;
 }
-#header .menu nav {
+#right-menu nav {
     margin-top: 80px;
 }
-#header .menu a {
+#right-menu a {
     color: #242424;
 }
-#header .menu li {
+#right-menu li {
     text-align: right;
     list-style-type: none;
     font-size: 20px;
     font-weight: 400;
     margin: 20px 0;
 }
-#header .menu img {
+#right-menu img {
     width: 28px;
     margin-left: 15px;
 }
 
 
 @media (min-width: 992px) {
-    #header .menu, #header .menu-button {
+    #right-menu, #header .menu-button {
         display: none;
     }
     #header .button-group, #header .horizontal-nav {
