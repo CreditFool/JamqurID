@@ -103,9 +103,14 @@
         display: inline;
         margin-left: 20px;
         font-weight: 400;
+        padding-bottom: 4px;
+    }
+    #header .horizontal-nav .active, #header .horizontal-nav li:hover {
+        border-bottom: 2px solid #42B649;
     }
     #header .horizontal-nav a {
         color: #242424;
+        text-decoration: none;
     }
     #header .button-group {
         margin-left: 20px;

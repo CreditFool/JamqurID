@@ -21,7 +21,7 @@
                         <div class="col horizontal-nav align-items-center">
                             <nav>
                                 <ul>
-                                    <li><a href="#">Beranda</a></li>
+                                    <li class="active"><a href="#">Beranda</a></li>
                                     <li><a href="#">Berita</a></li>
                                     <li><a href="#">Data</a></li>
                                     <li><a href="#">Tentang Kami</a></li>
@@ -146,7 +146,7 @@
                                 </div>
                             </main>
                             <footer>
-                                <p>Sudah punya akun? <a href="#">Masuk</a></p>
+                                <p>Sudah punya akun? <a href="#" onclick="document.getElementById('form-daftar-jamqur').style.display = 'none'; document.getElementById('form-masuk-jamqur').style.display = 'block';">Masuk</a></p>
                             </footer>
                         </form>
                     </div>
@@ -196,7 +196,7 @@
                                 </div>
                             </main>
                             <footer>
-                                <p>Belum memiliki akun? <a href="#">Daftar</a></p>
+                                <p>Belum memiliki akun? <a href="#" onclick="document.getElementById('form-masuk-jamqur').style.display = 'none'; document.getElementById('form-daftar-jamqur').style.display = 'block';">Daftar</a></p>
                             </footer>
                         </form>
                     </div>
@@ -376,12 +376,14 @@
                 </div>
                 <div id="section-7" class="container">
                     <div class="jumbotron">
-                        <div class="wrapper">
-                            <h3>Siapkah Anda menjadi bagian dari Jamqur?</h3>
-                            <p>
-                                Biarkan kami memandu Anda melalui Jamqur dan membantu Anda memulai.
-                            </p>
-                            <button type="button" class="btn btn-outline-success" onclick="document.getElementById('form-daftar-jamqur').style.display = 'block';">Daftar</button>
+                        <div class="mask">
+                            <div class="wrapper">
+                                <h3>Siapkah Anda menjadi bagian dari Jamqur?</h3>
+                                <p>
+                                    Biarkan kami memandu Anda melalui Jamqur dan membantu Anda memulai.
+                                </p>
+                                <button type="button" class="btn btn-outline-success" onclick="document.getElementById('form-daftar-jamqur').style.display = 'block';">Daftar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
